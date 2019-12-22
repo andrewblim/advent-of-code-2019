@@ -91,3 +91,4 @@
   (let [[wire1 wire2] (read-wire-file "resources/input/day03.txt")]
     (distance-traveled-of-closest-wire-intersection [0 0] wire1 wire2)))
 
+;; (answer-part-2)
