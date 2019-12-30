@@ -160,3 +160,12 @@
 
 ;; (answer-part-1)
 
+;; Question 2
+
+(defn answer-part-2
+  []
+  (-> (read-intcode-file "resources/input/day09.txt")
+      (intcode-v-to-h)
+      (process-single-intcode '(2))))
+
+;; (answer-part-2)
