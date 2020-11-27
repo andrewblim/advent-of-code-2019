@@ -10,4 +10,6 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
-resources/input
+input/day*.txt
+.venv
+__pycache__
